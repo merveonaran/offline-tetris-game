@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/images/tetris-128.png">
+    <link rel="shortcut icon" type="image/png" href="/images/tetris-256.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="/manifest.json">
+    <title>Tetris</title>
+</head>
+<body>
+    <div class="board">
+        <div class="textsection">
+            <div class="score">SCORE: <p></p></div>
+            <div class="next">NEXT <p></p></div>
+        </div>    
+        <div class="palette"></div>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+        	window.addEventListener('load', function () {
+        		navigator.serviceWorker.register('/sw.js?v=3');
+        	});
+        }
+    </script>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>

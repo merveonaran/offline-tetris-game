@@ -1,0 +1,51 @@
+{
+  "name": "Tetris",
+  "short_name": "tetris",
+  "icons": [
+    {
+      "src": "/images/tetris-16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/images/tetris-24.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "/images/tetris-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/images/tetris-64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },   
+    {
+      "src": "/images/tetris-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/tetris-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    
+    {
+      "src": "/images/tetris-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#3f51b5",
+  "description": "A simple Tetris Game, implementing a lot of PWA love.",
+  "dir": "ltr",
+  "lang": "en-US"
+}
